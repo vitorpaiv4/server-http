@@ -1,24 +1,21 @@
 import http from 'http';
+import { json } from 'stream/consumers';
+import { Database } from './database.js';
 
-const users = [];
+const database = new Database();
+
 
  
 
 const server = http.createServer(async(req, res) => {
     const { method, url } = req;
 
-    const buffers = [];
-
-
-    for await (const chunk of req){
-        buffers.push(chunk)
-    }
-
-   const body = Buffer.concat(buffers).toString()
-   console.log('Body recebido:', body)
+    const body = await json(req);
 
     if (method === 'GET' && url === '/user') {
-    res.writeHead(200, { 'Content-Type': 'application/json' });
+        const users = database.select('users');
+        console.log('Usuários encontrados:', users);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
         return res.end(JSON.stringify(users));
     }
     
@@ -34,11 +31,16 @@ const server = http.createServer(async(req, res) => {
         const {name, email} = userData;
         console.log('Dados extraídos:', {name, email});
 
-        users.push({
+        const users = database.select('users');
+        console.log('Usuários antes da inserção:', users);
+    
+        const user = {
             id: users.length + 1,
             name,
             email,
-        });
+        };
+        
+        database.insert('users', user);
         console.log('Usuários após inserção:', users);
     
         res.writeHead(201);
