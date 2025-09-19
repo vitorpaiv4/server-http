@@ -1,0 +1,62 @@
+{"timestamp":"2025-09-19T16:07:54.742Z","level":"INFO","message":"Requisição recebida: GET /user","data":null}
+{"timestamp":"2025-09-19T16:07:54.749Z","level":"INFO","message":"Usuários listados com sucesso","data":{"count":2}}
+{"timestamp":"2025-09-19T16:08:02.593Z","level":"INFO","message":"Requisição recebida: GET /user/1","data":null}
+{"timestamp":"2025-09-19T16:08:08.134Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:08.137Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Nome deve ter pelo menos 2 caracteres","Formato de email inválido"]}}
+{"timestamp":"2025-09-19T16:08:16.933Z","level":"INFO","message":"Requisição recebida: PUT /user/1","data":null}
+{"timestamp":"2025-09-19T16:08:16.936Z","level":"INFO","message":"Usuário atualizado com sucesso","data":{"userId":1,"name":"Maria Silva Santos"}}
+{"timestamp":"2025-09-19T16:08:20.889Z","level":"INFO","message":"Requisição recebida: DELETE /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:20.891Z","level":"INFO","message":"Usuário deletado com sucesso","data":{"userId":2,"name":"Jo�o Santos"}}
+{"timestamp":"2025-09-19T16:08:31.608Z","level":"INFO","message":"Requisição recebida: GET /user","data":null}
+{"timestamp":"2025-09-19T16:08:31.609Z","level":"INFO","message":"Usuários listados com sucesso","data":{"count":1}}
+{"timestamp":"2025-09-19T16:08:31.618Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:31.620Z","level":"INFO","message":"Usuário criado com sucesso","data":{"userId":2,"name":"João Silva"}}
+{"timestamp":"2025-09-19T16:08:31.625Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:31.627Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Nome é obrigatório"]}}
+{"timestamp":"2025-09-19T16:08:31.631Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:31.634Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Email é obrigatório"]}}
+{"timestamp":"2025-09-19T16:08:31.638Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:31.639Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Formato de email inválido"]}}
+{"timestamp":"2025-09-19T16:08:31.642Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:31.643Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Nome deve ter pelo menos 2 caracteres"]}}
+{"timestamp":"2025-09-19T16:08:31.645Z","level":"INFO","message":"Requisição recebida: GET /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:31.649Z","level":"INFO","message":"Requisição recebida: GET /user/999","data":null}
+{"timestamp":"2025-09-19T16:08:31.654Z","level":"INFO","message":"Requisição recebida: GET /user/abc","data":null}
+{"timestamp":"2025-09-19T16:08:31.657Z","level":"INFO","message":"Requisição recebida: PUT /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:31.659Z","level":"INFO","message":"Usuário atualizado com sucesso","data":{"userId":2,"name":"João Santos"}}
+{"timestamp":"2025-09-19T16:08:31.662Z","level":"INFO","message":"Requisição recebida: PUT /user/999","data":null}
+{"timestamp":"2025-09-19T16:08:31.665Z","level":"INFO","message":"Requisição recebida: PUT /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:31.667Z","level":"WARN","message":"Dados de usuário inválidos para atualização","data":{"errors":["Nome é obrigatório","Formato de email inválido"]}}
+{"timestamp":"2025-09-19T16:08:31.669Z","level":"INFO","message":"Requisição recebida: DELETE /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:31.670Z","level":"INFO","message":"Usuário deletado com sucesso","data":{"userId":2,"name":"João Santos"}}
+{"timestamp":"2025-09-19T16:08:31.673Z","level":"INFO","message":"Requisição recebida: DELETE /user/999","data":null}
+{"timestamp":"2025-09-19T16:08:31.676Z","level":"INFO","message":"Requisição recebida: DELETE /user/abc","data":null}
+{"timestamp":"2025-09-19T16:08:31.678Z","level":"INFO","message":"Requisição recebida: GET /rota-inexistente","data":null}
+{"timestamp":"2025-09-19T16:08:53.689Z","level":"INFO","message":"Requisição recebida: GET /user","data":null}
+{"timestamp":"2025-09-19T16:08:53.689Z","level":"INFO","message":"Usuários listados com sucesso","data":{"count":1}}
+{"timestamp":"2025-09-19T16:08:53.696Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:53.697Z","level":"INFO","message":"Usuário criado com sucesso","data":{"userId":2,"name":"João Silva"}}
+{"timestamp":"2025-09-19T16:08:53.702Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:53.704Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Nome é obrigatório"]}}
+{"timestamp":"2025-09-19T16:08:53.708Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:53.708Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Email é obrigatório"]}}
+{"timestamp":"2025-09-19T16:08:53.710Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:53.711Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Formato de email inválido"]}}
+{"timestamp":"2025-09-19T16:08:53.714Z","level":"INFO","message":"Requisição recebida: POST /user","data":null}
+{"timestamp":"2025-09-19T16:08:53.716Z","level":"WARN","message":"Dados de usuário inválidos","data":{"errors":["Nome deve ter pelo menos 2 caracteres"]}}
+{"timestamp":"2025-09-19T16:08:53.718Z","level":"INFO","message":"Requisição recebida: GET /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:53.722Z","level":"INFO","message":"Requisição recebida: GET /user/999","data":null}
+{"timestamp":"2025-09-19T16:08:53.725Z","level":"INFO","message":"Requisição recebida: GET /user/abc","data":null}
+{"timestamp":"2025-09-19T16:08:53.728Z","level":"INFO","message":"Requisição recebida: PUT /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:53.729Z","level":"INFO","message":"Usuário atualizado com sucesso","data":{"userId":2,"name":"João Santos"}}
+{"timestamp":"2025-09-19T16:08:53.732Z","level":"INFO","message":"Requisição recebida: PUT /user/999","data":null}
+{"timestamp":"2025-09-19T16:08:53.735Z","level":"INFO","message":"Requisição recebida: PUT /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:53.737Z","level":"WARN","message":"Dados de usuário inválidos para atualização","data":{"errors":["Nome é obrigatório","Formato de email inválido"]}}
+{"timestamp":"2025-09-19T16:08:53.738Z","level":"INFO","message":"Requisição recebida: DELETE /user/2","data":null}
+{"timestamp":"2025-09-19T16:08:53.739Z","level":"INFO","message":"Usuário deletado com sucesso","data":{"userId":2,"name":"João Santos"}}
+{"timestamp":"2025-09-19T16:08:53.741Z","level":"INFO","message":"Requisição recebida: DELETE /user/999","data":null}
+{"timestamp":"2025-09-19T16:08:53.743Z","level":"INFO","message":"Requisição recebida: DELETE /user/abc","data":null}
+{"timestamp":"2025-09-19T16:08:53.744Z","level":"INFO","message":"Requisição recebida: GET /rota-inexistente","data":null}
+{"timestamp":"2025-09-19T16:09:42.754Z","level":"INFO","message":"Requisição recebida: GET /user","data":null}
+{"timestamp":"2025-09-19T16:09:42.755Z","level":"INFO","message":"Usuários listados com sucesso","data":{"count":1}}
+{"timestamp":"2025-09-19T16:09:42.968Z","level":"INFO","message":"Requisição recebida: GET /favicon.ico","data":null}

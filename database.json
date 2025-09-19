@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria Silva Santos",
+      "email": "maria.santos@email.com",
+      "updatedAt": "2025-09-19T16:08:16.935Z"
+    }
+  ]
+}
